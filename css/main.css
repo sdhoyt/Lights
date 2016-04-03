@@ -1,0 +1,71 @@
+html {
+  background-color: #2A0E22;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+body {
+  background-color: #2A0E22;
+  font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+}
+    
+button {
+  border: none;
+  background: none;
+}
+
+/* Button */
+
+.button {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 160px;
+  line-height: 32px;
+  border-radius: 10px;
+  border: 5px solid #fff;
+  font-size: 2em;
+  background-color: #2A0E22;
+  color: #fff;
+}
+  
+    
+/* Misc */
+.center {
+  text-align: center;
+}
+    
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;;
+}
+
+@media screen and (max-width: 582px) {
+  .button {
+    height: 70px;
+
+  }
+}
+
+.title {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 2.8em;
+}
+
+    
